@@ -1,4 +1,6 @@
 import React from 'react';
+import Header from './header/Navbar';
+import Footer from './footer/Footer';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import LandingPage from './pages/LandingPage/LandingPage';
@@ -9,7 +11,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
+    <Header />
     <LandingPage />
+    <Footer />
   </React.StrictMode>
 );
 
